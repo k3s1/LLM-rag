@@ -1,0 +1,14 @@
+# requirements.txt
+fastapi
+uvicorn
+pypdf
+# sentence-transformers # REMOVE THIS LINE
+langchain-huggingface 
+faiss-cpu
+python-dotenv
+langchain
+sqlalchemy
+pydantic
+# For testing
+pytest
+httpx

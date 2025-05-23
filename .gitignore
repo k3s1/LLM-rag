@@ -1,0 +1,40 @@
+# .gitignore
+
+# Python virtual environment
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# IDE-specific files (e.g., VS Code)
+.vscode/
+
+# Environment variables file
+.env
+
+# Database files (SQLite)
+*.sqlite
+*.db
+data/documents.db # Specific to our project
+
+# FAISS index files
+data/faiss_index/
+
+# Uploaded documents directory (should not be versioned)
+documents/
+
+# Test data (if created by tests)
+test_data/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
